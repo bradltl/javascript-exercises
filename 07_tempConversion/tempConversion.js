@@ -17,7 +17,6 @@ const convertToFahrenheit = function(temp) {
   //if (!Number.isInteger(temp)) return "ERROR";
   let returnTemp = 0;
   temp = (((temp * 9) /5) + 32);
-  temp = (Math.round(temp + "e+" + 1)  + "e-" + 1);
   returnTemp = Math.round(temp * 10) / 10
   return returnTemp;
 
